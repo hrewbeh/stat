@@ -1,0 +1,102 @@
+body {
+  font-family: 'Comfortaa', cursive;
+  background: linear-gradient(rgba(255, 250, 250, 0.3), rgba(255, 250, 250, 0.3)), url(https://versiya.info/uploads/posts/2020-02/1582638067_1a29a98d55229078c85097036c491dbc.jpg) center;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: 100%;
+}
+
+.Che {
+  width: 100px;
+}
+
+img {
+  width: 40%;
+  display: flex;
+  text-align: center;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    color: #f66d52; /* Цвет текста */
+  font-size: 2em; /* Размер текста */
+  font-weight: bold;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+p.change-text:hover{
+  color: #5265f6; /* Меняем цвет текста */
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+a:hover {
+  color: #8B0000;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+}
+
+p {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+
+button:hover {
+  animation: bounce 1s;
+}
+
+Fonck {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
